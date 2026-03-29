@@ -5,20 +5,7 @@
 }   
 
 .visually-hidden {
-<<<<<<< HEAD
   @include visually-hidden;
-=======
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  margin: -1px !important;
-  border: 0 !important;
-  padding: 0 !important;
-  white-space: nowrap !important;
-  clip-path: inset(100%) !important;
-  clip: rect(0 0 0 0) !important;
-  overflow: hidden !important;
->>>>>>> a69c53cdb1784b90a2ead3b4ea112ec8e4d56723
 }
 
 .hidden-mobile {
