@@ -39,6 +39,7 @@
 @mixin square($size) {
     width: $size;
     aspect-ratio: 1;
+<<<<<<< HEAD
 }
 
 @mixin visually-hidden {
@@ -52,4 +53,6 @@
   clip-path: inset(100%) !important;
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
+=======
+>>>>>>> a69c53cdb1784b90a2ead3b4ea112ec8e4d56723
 }

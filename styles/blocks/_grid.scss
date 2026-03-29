@@ -5,19 +5,25 @@
   grid-template-columns: repeat(var(--gridColumns), 1fr);
   gap: 40px;
 
+<<<<<<< HEAD
   @include mobile {
     gap: 30px;
   }
 
+=======
+>>>>>>> a69c53cdb1784b90a2ead3b4ea112ec8e4d56723
   @for $i from 2 through 12 {
     &--#{$i} {
       --gridColumns: #{$i};
     }
   }
+<<<<<<< HEAD
 
   &--2 {
     @include tablet {
       --gridColumns: 1;
     }
   }
+=======
+>>>>>>> a69c53cdb1784b90a2ead3b4ea112ec8e4d56723
 }

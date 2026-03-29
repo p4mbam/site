@@ -12,6 +12,7 @@
 
         &:not(:last-child) {
             margin-bottom: 80px;
+<<<<<<< HEAD
 
             @include mobile {
                 margin-bottom: 40px;
@@ -22,6 +23,8 @@
             flex-direction: column;
             row-gap: 30px;
             text-align: center;
+=======
+>>>>>>> a69c53cdb1784b90a2ead3b4ea112ec8e4d56723
         }
     }
 
