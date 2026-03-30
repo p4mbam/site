@@ -11,7 +11,7 @@ $mobile-s-above: 481px;
 $mobile-s: 480px;
 
 
-@mixin desktop-adove {
+@mixin desktop-above {
     @media (min-width: $desktop-above) {
         @content;
     }

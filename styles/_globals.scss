@@ -1,5 +1,5 @@
 body {
-    @include fluid-text(18, 26); /*поменять местами?*/
+    @include fluid-text(18, 26);
 
     font-family: var(--font-family-base);
     font-weight: 400;
